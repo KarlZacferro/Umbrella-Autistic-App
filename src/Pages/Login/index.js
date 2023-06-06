@@ -50,9 +50,7 @@ const Login = () => {
             text='Entrar!'
             onClick={handleSubmit}
         />
-        
-
-      
+    
             <div>
                 <p>Não possui conta</p>
                 <a>cadastrar</a>
