@@ -5,13 +5,16 @@ const  Button = ({
     type,
     text,
     onClick,
-}) =>{
+    disabled,
+}) => {
    
     return(
         <ButtonCustomized 
         type={type}
         text={text}
-        onClick={onClick}>
+        onClick={onClick}
+        disabled={disabled}
+        >
             {text}
         </ButtonCustomized>
     );
