@@ -3,7 +3,10 @@ import { Container, Form } from "./styles";
 import Input from "../../Components/Input";
 import Button from "../../Components/Button";
 import { validateEmail, validatePassword } from '../../Utils/validators';
+import UserServices from "../../Server/userSever";
 
+
+const userService = new UserServices()
 
 const Login = () => {
     //state loading vai manipular as requisiçoes 
@@ -15,6 +18,7 @@ const Login = () => {
         event.preventDefault();
         try{
             setLoading(true)
+            const response = await userService.login(form) 
             alert('Sucesso')
             setLoading(false)
         }
