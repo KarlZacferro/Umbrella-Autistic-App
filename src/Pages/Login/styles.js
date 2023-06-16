@@ -16,7 +16,6 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   
   background-color: #201d1d;
   border-radius: 5px;
