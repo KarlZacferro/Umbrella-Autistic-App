@@ -1,3 +1,5 @@
+
+
 const validateEmail = (email) =>{
    return email?.toString().includes('@') && email?.toString().includes('.')
 }
