@@ -22,6 +22,8 @@ export const Form = styled.form`
   max-width: 450px;
   gap: 30px 0px;
 
+
+  
   h1 {
     color: white;
     font-size: 20px;
