@@ -12,6 +12,7 @@ const  Button = ({
         <ButtonCustomized 
         type={type}
         text={text}
+        
         onClick={onClick}
         disabled={disabled}
         >
