@@ -1,7 +1,6 @@
 import styled from "styled-components"; 
 
 export const ButtonCustomized = styled.button`
-
 color: #FFF;
   font-size: 20px;
   border: 30px;
@@ -16,6 +15,7 @@ color: #FFF;
   ${props => props.disabled === false &&`
     &:hover {
       background-color: #FFF;
+
       color: #6a6a6a;
     }
   `}
