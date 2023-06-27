@@ -2,6 +2,8 @@ import React from "react";
 import { ButtonCustomized } from "./styles";
 
 const  Button = ({
+
+    
     type,
     text,
     onClick,

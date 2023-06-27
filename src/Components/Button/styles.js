@@ -19,6 +19,7 @@ color: #FFF;
       color: #6a6a6a;
     }
   `}
+  
 
   ${props => props.disabled &&`
     opacity: 0.7

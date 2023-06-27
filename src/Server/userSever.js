@@ -9,6 +9,7 @@ export default class UserServices{
     }
 
     async login (dados) {
+        
         const {data} = await this.axios.post('login', dados)
 
         if(data) {
