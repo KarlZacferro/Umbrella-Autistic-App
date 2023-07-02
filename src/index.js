@@ -13,7 +13,7 @@ root.render(
     
     <React.StrictMode>
         <Login/>
-        <React></React>
+       /* <React></React>*/
     </React.StrictMode>
     
 );
