@@ -1,8 +1,7 @@
-import styled from "styled-components"; 
+import styled from 'styled-components'
 
-export const InputCustomized = styled.input`
-
-color: #FFF;
+export const InputCustomizado = styled.input`
+  color: #FFF;
   font-size: 20px;
   background-color: transparent;
   border: 2px solid #6a6a6a;
@@ -12,7 +11,6 @@ color: #FFF;
   width: 100%;
 
     input::placeholder {
-      
       color: #FFF;
       font-size: 12px;
       opacity 0.7;

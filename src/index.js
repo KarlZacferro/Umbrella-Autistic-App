@@ -1,19 +1,13 @@
-import React from "react"
-import ReactDOM from "react-dom/client";
-
-
-
-
-import Login from "./Pages/Login";
-
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import GlobalStyle from './styles/global'
+import Routering from './Routes/routes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
 root.render(
-    
-    <React.StrictMode>
-        <Login/>
-       /* <React></React>*/
-    </React.StrictMode>
-    
+  <React.StrictMode>
+    <GlobalStyle/>
+    <Routering/>
+  </React.StrictMode>
 );
+
